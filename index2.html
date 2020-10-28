@@ -1,0 +1,256 @@
+<!doctype html>
+
+<html  lang="he-IL" >
+
+
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>דראפט המסעדות</title>
+<link rel="stylesheet" href="css,Pictures/index2.css">
+<link rel="stylesheet" type="text/css" href="css,Pictures/all.css">
+<link rel="icon" href="https://media.giphy.com/media/l46ChALK3WcerMu8E/giphy.gif" type="image/gif" sizes="16x16">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+
+<script>
+	var i = 0; 
+	var images = [];
+	var time = 2000;
+
+	
+	images[0] = 'picture1/takria.jpg';
+	images[1] = 'picture1/italy.jpg';
+	images[2] = 'picture1/vtrina.jpg';
+	images[3] = 'picture1/bankok-min.jpg';
+	images[4] = 'picture1/jasmino.jpg';
+	images[5] = 'picture1/m25.jpg';
+	images[6] = 'picture1/ebi.jpg';
+	images[7] = 'picture1/popina.jpg';
+	images[8] = 'picture1/mentiteni.jpg';
+	images[9] = 'picture1/ocd.jpg';
+	images[10] = 'picture1/maggazino.jpg';
+	images[11] = 'picture1/teder.jpg';
+
+
+	
+
+
+	function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+
+</script>
+
+<script>
+function msg() {
+  alert("נשלח מייל אליך עם פרטי התחברות");
+}
+</script>
+
+</head>
+
+<body dir="rtl">
+
+<header id="top_header">
+<h1 style="color:red;">דראפט המסעדות</h1>
+</header>
+<nav id ="top_menu">
+ <ul>
+ <li><a href="fastfood.html">פאסט פוד</a></li>
+ <li><a href="easy.html">קל</a></li>
+  <li><a href="intersting.html">מעניין</a></li>
+ <li><a href="gorma.html">גורמה</a></li>
+ <div class="dropdown">
+ <button class="dropbtn">חול
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%9E%D7%95%D7%9E%D7%9C%D7%A6%D7%95%D7%AA-%D7%91%D7%9C%D7%95%D7%A0%D7%93%D7%95%D7%9F/">לונדון</a>
+      <a href="https://www.haaretz.co.il/travel/new-york/MAGAZINE-1.6695872">ניו יורק</a>
+	  <a href="https://www.mako.co.il/travel-world/guides-barcelona/Article-9f9f3bb6fc33421006.htm">ברצלונה</a>
+	  <a href="https://www.ynet.co.il/food/foodnews/article/rkljYDEbH">אתונה</a>
+	  </div>
+	  </div>
+ </ul>
+</nav>
+
+<div id="alon">
+<div id="sivan">
+<section id="open">
+<article>
+<div id="mom">
+<h1>תזת הרעב</h1>
+<p>בשנים האחרונות, הביקוש לאכול בחוץ עולה בקצב מתמיד.
+בהתאם לזאת כמות המסעדות והמגוון של האכול עולים.
+למרות שהביקוש מגיע לשיאים חדשים,לצערנו אין שום אתר ברשת,שמאפשר בצורה נוחה לפרט לדעת איזה מסעדות יש,
+ומה הזאנר של כל מסעדה.
+אתר זה נבנה כדי לענות על צורך זה,וגם על הצורך להפיג את השעמום שחופשת פסח פלוס בידוד יוצרים ...<br />
+המסעדות בארץ חולקו ל4 קטגוריות שונות: פאסטפוד,יומיומי,מעניין וגורמה.
+הפאסטפוד חולק לשלושה סוגים של מאכלים,ויתר הקטגוריות חולקו לפי ערים.<br />
+בכל קטגוריה יכול הפרט,ליצור רשימה של  המסעדות המעודפות שלו.<br />
+בנוסף יפורסמו באתר ביקורות על מסעדות מעיתונות.
+<br />
+<br />
+</p> 
+</div>
+<div id="slides">
+
+
+<img name="slide">
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div id="form_holder">
+       <form action="/action_page.php" method="post" name="contact_form1" id="contact_form1">
+       <h3>הצטרפות למועדון חברים:</h3>
+<div id="form_holder_inner">
+	<div class="form_item">
+<label for="name1">שם מלא:</label>
+<input type="text" name="name1" id="name1" required>
+   </div>
+ 	<div class="form_item">
+<label for="email">דוא"ל:</label>
+<input type="text" name="email" id="email" required>
+   </div>
+     	<div class="form_item">
+    <label for="address_1">מסעדה אהובה:</label>
+   <input type="text" name="address_1" id="address_1"  required>
+   </div>
+    	<div class="form_item">
+    <label for="other">מידת עשייה:</label>
+   <input type="text" name="address_1" id="address_1" required>
+   </div>
+	<div id="ella">
+  
+<form>
+  <input id="myBtn" type="button" value="אישור" onclick="msg()">
+</form>
+
+
+
+</div>
+
+</div>
+</form>
+
+
+
+
+</article>
+<div id="details">
+<ul>
+<li class="last"><a href="asyekoren@gmail.com"  target="_top">asyekoren@gmail.com</a></li>
+<li>0526691548</li>
+
+</ul>
+</div>
+</section>
+
+
+
+
+
+
+
+
+</div>
+
+<section id="niv">
+<h1>ניב גלבוע:</h1>
+<section id="videoreview1">
+<video  id="nivg"  height="200" controls poster="css,Pictures/Pictures/nivvgg.jpg">
+<source src="nivg2.mp4">
+</video>
+</section>
+<section id="videoreview1">
+<video id="nivg"  height="200" controls poster="css,Pictures/Pictures/nivvgg.jpg">
+<source src="nivg3.mp4">
+</video>
+</section>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <aside id="food_news">
+<h1 class="avi"><a href="https://food.walla.co.il/item/3352035" target="_blank"><u>אבי אפרתי:</u></a></h1>
+ 
+<p>השבוע התחשק לנו קצת אוכל איטלקי והלב סחב ללה רפובליקה די רונימוטי, טרטוריה אלגנטית, צנועה אך מוקפדת מאוד קולינרית, שהכול נעשה בה תמיד כמו שצריך, ללא קיצורי דרך. האם חווית האוכל האיטלקי היותר אישי ופחות המוני, עובדת להם גם במשלוחים?
+
+
+</p>
+<br />
+ <h1 ><a href="https://www.haaretz.co.il/food/restaurants-reviews/.premium.highlight-REVIEW-1.8741095" target="_blank"><u>שגיא כהן:</u></a></h1>
+ <p>
+הבעיה היחידה עם המשלוח מ"מגזינו" היתה ההונאה. אין הרי שום דרך בעולם שמשלוח ממסעדה יגיע בכאלו איכות, טריות וטמפרטורה. הנה מה שאני משוכנע שקרה: ברגע שהתקבלה ההזמנה הם הלבישו את השף בתכלת ושלחו אותו על אופניים חשמליים עם מטבח שדה. הוא פרש על הדשא ובישל שם אחת אחת את המנות. 
+</p>
+<br />
+ <h1><a href="https://www.mako.co.il/food-weekend/restaurant-reviews/Article-a1e29bd3c445171026.htm?sCh=7b70c1e5e6295410&pId=25483675" target="_blank"><u>ביצה-עלומה:</u></a></h1>
+ <p>מונאר הפכה לעוד מסעדת משלוחים, כמו כל המסעדות כרגע, וזה בדיוק הזמן לגלות את האוכל ההודי, אם במקרה התעלמתם ממנו עד עכשיו. אל תצפו לעוד מסעדת צ׳יקן טיקה, אלא לגרסה עכשווית, צעירה ומוצלחת של מטבח שמשום מה לא הצליח להתאקלם בהצלחה בישראל ובעולם. והתיבול? פצצות לגבות
+
+ </p>
+ <br />
+</aside>
+</div>
+
+  <footer class="footer_all">
+ <div class="footer_left">
+ <a href="https://wolt.com/" target="_blank"><i class="fas fa-motorcycle"></i></a>
+ <a href="https://ontopo.co.il/" target="_blank"><i class="far fa-calendar-alt"></i></a> 
+ <a href="https://easy.co.il/" target="_blank"><i class="fas fa-location-arrow"></i></a>
+ </div>
+ <div class="footer_right">
+ <p class="footer_links">
+ <a class="link_1" href="fastfood.html">פאסטפוד</a>
+ <a href="easy.html">קל</a>
+ <a href="intersting.html">מעניין</a>
+ <a href="gorma.html">גורמה</a>
+  <a href="friends.html">מועדון חברים</a>
+
+ </p>
+<p>
+BLUEKEY.LTD &copy;2020
+</p>
+ </div>
+
+ </div>
+
+ 
+ </footer>
+ 
+ 
+ </div>
+ 
+ 
+
+
+
+</div>
+</body>
+</html>
