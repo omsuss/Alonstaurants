@@ -1,0 +1,158 @@
+<html  lang="he-IL" >
+
+
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>דראפט המסעדות</title>
+<link rel="stylesheet" href="css,Pictures/main.css">
+<link rel="stylesheet" type="text/css" href="css,Pictures/all.css">
+<link rel="icon" href="https://media.giphy.com/media/l46ChALK3WcerMu8E/giphy.gif" type="image/gif" sizes="16x16">
+<script>
+	var i = 0; 
+	var images = [];
+	var time = 2500;
+
+	
+	images[0] = 'takria.jpg';
+	images[1] = 'italy.jpg';
+	images[2] = 'vtrina.jpg';
+	images[3] = 'bankok-min.jpg';
+	images[4] = 'jasmino.jpg';
+	images[5] = 'm25.jpg';
+	images[6] = 'ebi.jpg';
+	images[7] = 'popina.jpg';
+	images[8] = 'mentiteni.jpg';
+	images[9] = 'ocd.jpg';
+	images[10] = 'maggazino.jpg';
+	images[11] = 'teder.jpg';
+
+
+	
+
+
+	function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+
+</script>
+
+<script>
+function msg() {
+  alert("נשלח מייל אליך עם פרטי התחברות");
+}
+</script>
+
+</head>
+<body>
+<div id="koren">
+<header id="top_header">
+<h1 style="color:red;">דראפט המסעדות</h1>
+</header>
+<nav id ="top_menu">
+ <ul>
+ <li><a href="fastfood.html">פאסט פוד</a></li>
+ <li><a href="easy.html">קליל</a></li>
+  <li><a href="intersting.html">יומיומי</a></li>
+ <li><a href="gorma.html">גורמה</a></li>
+
+ </ul>
+</nav>
+
+<section id="open">
+<article>
+<h1>תזת הרעב:</h1>
+<p>בשנים האחרונות, הביקוש לאכול בחוץ עולה בקצב מתמיד.
+בהתאם לזאת כמות המסעדות והמגוון של האכול עולים.
+למרות שהביקוש מגיע לשיאים חדשים,לצערנו אין שום אתר ברשת,שמאפשר בצורה נוחה לפרט לדעת איזה מסעדות יש,
+ומה הזאנר של כל מסעדה.
+אתר זה נבנה כדי לענות על צורך זה,וגם על הצורך להפיג את השעמום שחופשת פסח פלוס בידוד יוצרים ...<br />
+המסעדות בארץ חולקו ל4 קטגוריות שונות: פאסטפוד,יומיומי,מעניין וגורמה.
+הפאסטפוד חולק לשלושה סוגים של מאכלים,ויתר הקטגוריות חולקו לפי ערים.<br />
+בכל קטגוריה יכול הפרט,ליצור רשימה של  המסעדות המעודפות שלו.<br />
+בנוסף יפורסמו באתר ביקורות על מסעדות מעיתונות.
+
+</p> 
+</section>
+<div id="niv">
+<section id="videoreview1">
+<video  id="nivg1"  height="200" controls poster="css,Pictures/Pictures/nivvgg.jpg">
+<source src="nivg2.mp4">
+</video>
+</section>
+</div>
+<div id="niv2">
+<section id="videoreview2">
+<video id="nivg2"  height="200" controls poster="css,Pictures/Pictures/nivvgg.jpg">
+<source src="nivg3.mp4">
+</video>
+</section>
+
+
+</div>
+<div id="form_holder">
+       <form action="/action_page.php" method="post" name="contact_form1" id="contact_form1">
+       <h3>הצטרפות למועדון חברים:</h3>
+<div id="form_holder_inner">
+	<div class="form_item">
+<label for="name1">שם מלא:</label>
+<input type="text" name="name1" id="name1" required>
+   </div>
+ 	<div class="form_item">
+<label for="email">דוא"ל:</label>
+<input type="text" name="email" id="email" required>
+   </div>
+     	<div class="form_item">
+    <label for="address_1">מסעדה אהובה:</label>
+   <input type="text" name="address_1" id="address_1"  required>
+   </div>
+    	<div class="form_item">
+    <label for="other">מידת עשייה:</label>
+   <input type="text" name="address_1" id="address_1" required>
+   </div>
+	<div id="ella">
+  
+<form>
+  <input id="myBtn" type="button" value="אישור" onclick="msg()">
+</form>
+
+
+
+</div>
+
+</div>
+</form>
+
+
+
+
+</article>
+<div id="details">
+<ul>
+<li class="last"><a href="asyekoren@gmail.com"  target="_top">asyekoren@gmail.com</a></li>
+<li>0526691548</li>
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</body>
+</html>

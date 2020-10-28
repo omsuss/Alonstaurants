@@ -1,0 +1,140 @@
+* {margin:0px;
+padding:0px;
+width:auto;
+
+}
+
+div {
+  max-width: 2000x;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
+  
+}
+form {margin:0 0 0 0; padding:0 0 0 0;}
+
+h1  {
+		 font:bold 20px tahoma;
+		 
+	
+	}
+h2   {
+	font:bold 15px arial;
+	color:red;
+	}
+	
+h3 {
+	font:bold 20px brown;
+
+}	
+
+	a:visited {
+		color:black;
+		}
+a:hover {
+	color:black;
+	
+	}
+a:active {
+	
+	color:black;
+	}
+	
+	a:link {
+		color:black;
+		text-decoration:none;
+	}
+	
+	p {color:gray;
+	font: bold 14px tahoma;
+	}
+
+	
+	#span  {
+			color:black;
+			font-size:2px;
+			
+			
+			
+		}
+		
+		
+		
+		
+	}
+body {
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	background-color:#FFFAFA;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	height:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+header, section, footer, aside, nav, article, hgroup{display:block;}
+
+
+
+#top_header {
+border:1px  solid black;
+color:red;
+overflow: hidden;
+ background-color: black;
+  padding: 20px 10px;
+  text-align:center;
+   font:bold 12px Copperplate;
+   width:auto;
+
+}
+
+#top_menu{border:red;
+	background:red;
+color:white;
+width:auto;
+overflow:hidden;
+text-align:center;
+}
+
+#top_menu li{
+	display:inline-block;
+list-style:none;
+padding: 14px 100px;
+font:bold 12px tahoma;
+float:center;
+}
+
+
+#mom {
+top:115px;
+left:900px;
+border:1px solid black;
+max-width:25%;
+padding:13px;
+
+
+
+}
+
+#mom p {
+font-size:12px;
+	
+	
+}
+
+
+	
+
+#mom h1 {
+	font-size:30px;
+	max-height:30px;
+	padding:10px 10px;
+	text-align:center;
+
+
+}

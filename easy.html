@@ -1,0 +1,197 @@
+<!doctype html>
+
+<html  lang="he-IL" >
+
+
+<head>
+<meta charset="utf-8" />
+<title>יומיומי</title>
+<link rel="stylesheet" href="css,Pictures/easy.css">
+<link rel="stylesheet" type="text/css" href="css,Pictures/all.css">
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+
+</script>
+</head>
+<body dir="rtl">
+<div id="rate">
+<header id="top_header">
+<h1 id="fast">יומיומי</h1>
+</header>
+<nav id ="city">
+ <ul>
+ <li id="black">תל-אביב</li>
+  <li id="black">אזור-השרון</li>
+ <li id ="black">יתר הארץ</li> 
+ </ul>
+</nav>
+<div id="alon">
+<div id="sivan">
+<section id="telaviv" ondrop="drop(event)" ondragover="allowDrop(event)">
+<article>
+<header>
+<h1>תל-אביב</h1>
+</header>
+<ul>
+<li id="brother"  draggable="true" ondragstart="drag(event)" width="336" height="69">האחים</li>
+<li id="dixey"  draggable="true" ondragstart="drag(event)" width="336" height="69">דיקסי</li>
+<li id="port"  draggable="true" ondragstart="drag(event)" width="336" height="69">פורט סעיד</li>
+<li id="bar"  draggable="true" ondragstart="drag(event)" width="336" height="69">ברבוניה</li>
+<li id="ozna"  draggable="true" ondragstart="drag(event)" width="336" height="69">אונזה</li>
+<li id="greco"  draggable="true" ondragstart="drag(event)" width="336" height="69">גרקו</li>
+<li id="nam"  draggable="true" ondragstart="drag(event)" width="336" height="69">נאם</li>
+<li id="tiger"  draggable="true" ondragstart="drag(event)" width="336" height="69">טייגר לילי</li>
+<li id="goecch"  draggable="true" ondragstart="drag(event)" width="336" height="69">גוצה</li>
+<li id="mina"  draggable="true" ondragstart="drag(event)" width="336" height="69">מינה טומי</li>
+<li id="kab"  draggable="true" ondragstart="drag(event)" width="336" height="69">קאב קם</li>
+<li id="azura"  draggable="true" ondragstart="drag(event)" width="336" height="69">אזורה</li>
+<li id="manten"  draggable="true" ondragstart="drag(event)" width="336" height="69">מן טן טן</li>
+<li id="m25"  draggable="true" ondragstart="drag(event)" width="336" height="69">m25</li>
+<li id="תאילנדית בסמטת סיני"  draggable="true" ondragstart="drag(event)" width="336" height="69">תאילנדית בסמטת סיני</li>
+<li id="furma"  draggable="true" ondragstart="drag(event)" width="336" height="69">פוארמה</li>
+<li id="חנן"  draggable="true" ondragstart="drag(event)" width="336" height="69">חנן מרגילן</li>
+<li id="מנזר"  draggable="true" ondragstart="drag(event)" width="336" height="69">מנזר</li>
+<li id="מאפיית שרויטמן"  draggable="true" ondragstart="drag(event)" width="336" height="69">מאפיית שרויטמן</li>
+<li id="jons"  draggable="true" ondragstart="drag(event)" width="336" height="69">jons</li>
+
+
+
+
+
+</ul>
+
+
+
+
+
+</article>
+
+
+
+
+</section>
+
+
+<section id="sharonarea" ondrop="drop(event)" ondragover="allowDrop(event)">
+<article>
+<header>
+<h1 id="telh">אזור-השרון</h1>
+</header>
+<ul>
+<li li id="sarah"  draggable="true" ondragstart="drag(event)" width="336" height="69">המקום של שרה</li>
+<li li id="taya"  draggable="true" ondragstart="drag(event)" width="336" height="69">טאיה</li>
+<li li id="nono"  draggable="true" ondragstart="drag(event)" width="336" height="69">נונו</li>
+<li li id="nooach"  draggable="true" ondragstart="drag(event)" width="336" height="69">נוצ</li>
+<li li id="zuzu"  draggable="true" ondragstart="drag(event)" width="336" height="69">זוזוברה</li>
+<li li id="goni"  draggable="true" ondragstart="drag(event)" width="336" height="69">גוני</li>
+<li li id="b12"  draggable="true" ondragstart="drag(event)" width="336" height="69">b12</li>
+<li li id="badon"  draggable="true" ondragstart="drag(event)" width="336" height="69">בהדונוס</li>
+<li li id="sabisten"  draggable="true" ondragstart="drag(event)" width="336" height="69">סבסטיאן</li>
+<li li id="rosenberg"  draggable="true" ondragstart="drag(event)" width="336" height="69">רוזנברג</li>
+<li li id="hisha"  draggable="true" ondragstart="drag(event)" width="336" height="69">הישה</li>
+<li li id="bankok"  draggable="true" ondragstart="drag(event)" width="336" height="69">בנקוק קיטצן</li>
+
+</ul>
+
+
+
+
+
+</article>
+
+
+
+
+
+</section>
+
+
+<section id="other" ondrop="drop(event)" ondragover="allowDrop(event)">
+<article>
+<header>
+<h1 id="telh">יתר הארץ</h1>
+</header>
+<ul>
+<li li id="ezva"  draggable="true" ondragstart="drag(event)" width="336" height="69">עזבה-<span>כפר רמה</span></li>
+<li li id="doris"  draggable="true" ondragstart="drag(event)" width="336" height="69">דוריס קצבים-<span>ראש פינה/זכרון יעקב</span></li>
+<li li id="מושבוצ"  draggable="true" ondragstart="drag(event)" width="336" height="69">מושבוצ-<span>רמות</span></li>
+<li li id="אישטבח"  draggable="true" ondragstart="drag(event)" width="336" height="69">אישטבח-<span>ירושלים</span></li>
+<li li id="אזורה"  draggable="true" ondragstart="drag(event)" width="336" height="69">אזורה-<span>ירושלים</span></li>
+<li li id=סניטהבר"  draggable="true" ondragstart="drag(event)" width="336" height="69">סניטה בר-<span>חיפה</span></li>
+<li li id="אנה"  draggable="true" ondragstart="drag(event)" width="336" height="69">אנה-<span>ירושלים</span></li>
+<li li id=קרייב"  draggable="true" ondragstart="drag(event)" width="336" height="69">קרייב-<span>ירושלים</span></li>
+
+
+
+
+</ul>
+
+
+
+
+
+</article>
+</section>
+<section id="fav" ondrop="drop(event)" ondragover="allowDrop(event)">
+<article>
+<header>
+<h1>your favorites</h1>
+<ul>
+</ul>
+</article>
+</section>
+
+
+
+
+</div>
+<aside id="food_news">
+<p>
+<img id="img1" src="css,Pictures\Pictures\dimsum.jpg">
+<img id="img2" src="css,Pictures\Pictures\pasta.jpg">
+<img id="img3" src="css,Pictures\Pictures\poke1.jpg">
+<img id="img4" src="css,Pictures\Pictures\salmon.jpg">
+</p>
+</aside>
+ 
+</div>
+
+ <footer class="footer_all">
+ <div class="footer_left">
+ <a href="https://wolt.com/" target="_blank"><i class="fas fa-motorcycle"></i></a>
+ <a href="https://ontopo.co.il/" target="_blank"><i class="far fa-calendar-alt"></i></a> 
+ <a href="https://easy.co.il/" target="_blank"><i class="fas fa-location-arrow"></i></a>
+ </div>
+ <div class="footer_right">
+ <p class="footer_links">
+ <a class="link_1" href="index2.html">דראפט המסעדות</a>
+ <a href="fastfood.html">פאסטפוד</a>
+ <a href="intersting.html">מעניין</a>
+ <a href="gorma.html">גורמה</a>
+  <a href="friends.html">מועדון חברים</a>
+
+ 
+ </p>
+<p>
+BLUEKEY.LTD &copy;2020
+</p>
+ </div>
+
+ </div>
+
+ 
+ </footer>
+ 
+ 
+ </body>
+ </html>

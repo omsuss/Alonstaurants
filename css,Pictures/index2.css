@@ -1,0 +1,479 @@
+
+* {margin:0px;
+padding:0px;
+width:auto;
+
+}
+
+div {
+  max-width: 2000x;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
+  
+}
+form {margin:0 0 0 0; padding:0 0 0 0;}
+
+h1  {
+		 font:bold 20px tahoma;
+		 
+	
+	}
+h2   {
+	font:bold 15px arial;
+	color:red;
+	}
+	
+h3 {
+	font:bold 20px brown;
+
+}	
+
+	a:visited {
+		color:black;
+		}
+a:hover {
+	color:black;
+	
+	}
+a:active {
+	
+	color:black;
+	}
+	
+	a:link {
+		color:black;
+		text-decoration:none;
+	}
+	
+	p {
+	font: bold 14px tahoma;
+	}
+
+	
+	#span  {
+			color:black;
+			font-size:2px;
+			
+			
+			
+		}
+		
+		
+		
+		
+	}
+body {
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	background-color:#FFFAFA;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	height:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+header, section, footer, aside, nav, article, hgroup{display:block;}
+
+
+
+	
+
+#top_header {
+border:1px  solid black;
+color:red;
+overflow: hidden;
+ background-color: black;
+  padding: 20px 10px;
+  text-align:center;
+   font:bold 12px Copperplate;
+   width:auto;
+
+}
+#top_menu{border:red;
+	background:red;
+color:white;
+width:auto;
+overflow:hidden;
+text-align:center;
+}
+
+#top_menu li{
+	display:inline-block;
+list-style:none;
+padding: 14px 100px;
+font:bold 12px tahoma;
+float:center;
+}
+
+
+.footer_all{
+	 background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 10px 20px;
+  height:auto;
+}  
+
+	
+.footer_all .footer_right p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+.footer_all p.footer_links {
+	font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0px;
+  transition: ease .25s;
+  text-align:right;
+}
+.footer_all p.footer_links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+	
+
+
+}
+
+
+
+
+
+.footer_all .footer_links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer_all .footer_links .link_1:before {
+  content: none;
+  
+  
+}
+
+
+.footer_all .footer_left {
+  float: left;
+  margin-top: 6px;
+  max-width: 900px;
+}
+.footer_all .footer_left a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color:none;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 3px;
+  transition:all .25s;
+  
+}
+
+
+.footer_all .footer_left a:hover{
+	transform:scale(1.1); -webkit-transform:scale(1.1);
+	}
+
+
+.footer_all p.footer_links a:hover{
+	text-decoration:underline;
+	}
+
+
+
+@media (max-width: 600px) {
+  .footer_all .footer_right, .footer_all .footer_left {
+    text-align: center;
+  }
+  .footer_all .footer_left {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer_all.footer_right p.footer_links {
+    line-height: 1.8;
+  }
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  	display:inline-block;
+list-style:none;
+padding: 14px 170px;
+font:bold 12px tahoma;
+color:black;
+float:center;
+background:red;
+border:0px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+  
+	
+
+.dropdown-content a {
+  float: none;
+  font:16px tahoma;
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    text-align:center;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+#alon {
+	display:-webkit-box;
+	-webkit-box-orient;horizontal;
+	border:4px solid black;
+	
+	
+	
+}
+#sivan {
+display:block;
+margin:50px ;
+width:700px;
+height:830px;
+	
+}
+
+#open {
+position:absolute;
+top:80px;
+left:920px;
+border:0px solid black;
+max-width:95%;
+padding:15px;
+
+
+
+
+}
+
+#open p {
+font-size:12px;
+width:125%;
+height:90%;
+	
+	
+}
+
+
+
+	
+
+#open h1 {
+	font-size:30px;
+	max-height:30px;
+	padding:10px 10px;
+	text-align:center;
+
+
+}
+	
+
+	
+
+	
+#videoreview1{
+		width:360px;
+		margin:10px auto;
+	padding:10px;
+	border:4px solid black;
+	background:bl;
+	border-radius:10px;
+	position:relative;
+	left:25px;
+	padding:5px;
+	
+		
+	}
+	
+	
+#nivg{
+	width:360px;
+	
+	
+}	
+#niv h1 {
+	position:relative;
+	left:40px;
+	top:00px;
+	text-align:center;
+	
+}
+
+
+#food_news {
+	width:390px;
+	border:3px double black;
+	height:10%;
+	
+	
+	
+}
+
+#food_news h1 {
+	font-size:17px;
+	text-align:center;
+	
+}
+#food_news p {
+	
+    -webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+	position:relative;
+	left:0%;
+	border:2px solid black;
+	background-color:green;
+	
+
+
+}
+
+
+#slides {
+	
+	position:absolute;
+	top:100%;
+	width:90%;
+	height:10px;
+
+	
+}
+
+img {
+	 width:120%; 
+	 height:300px;
+}
+
+#form_holder{
+	margin:5px; 
+	padding:22px;
+	width:900px; 
+	border:3px solid black;
+	height:200px;
+	position:relative;
+	left:-170px;
+	
+	
+	
+	
+	
+	}
+
+#form_holder_inner .form_item{
+	width: 430px; 
+	margin:17px 0 0 0px; 
+	float:right;
+	color:#000;
+	}
+#form_holder_inner .form_item input{
+	min-width: 220px; 
+	height:37px; 
+	border:2px solid #606060;  
+	font-size:18px; float:center; 
+	}
+#form_holder_inner .form_item label{
+	min-width: 100px; 
+	height:30px; 
+	margin:9px 0 0 0;
+	float:right; 
+	padding:0 20px 0 0; 
+	}
+
+	
+
+
+
+
+
+	
+
+	
+#myBtn{
+  background-color: #606060;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  position:relative;
+  left:-805px;
+  top:-45px;
+  font-family:arial;
+  width:auto;
+}	
+
+
+#details {
+	text-align:center;
+	width:auto;
+    position:absolute;
+	left:-320px;
+	top:850px;
+	
+
+}
+
+#details li {
+	display:inline-block;   
+	 
+	 display: inline; 
+	 padding:0 15px 0 15px; 
+	 /* For IE 7 */ zoom: 1; *display: inline; 
+	 padding:0 15px 0 15px; 
+	 border-left:1px solid #000;
+}
+#details ul li.last{ 
+ border:0px solid black;
+color:black;
+}
+#food_news  .avi {
+	color:black;
+}
