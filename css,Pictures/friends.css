@@ -1,0 +1,168 @@
+@charset "utf-8";
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	direction:rtl;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+
+
+
+form {margin:0 0 0 0; padding:0 0 0 0;}
+
+
+#ya {
+
+}
+header, section, footer, aside, nav, article, hgroup{display:block;}
+
+#bluepoint {
+	position:absolute;
+	left:57%;
+	top:5%;
+	color:blue;
+	width:auto;
+	width:12%;
+	max-width:12%;
+	text-align:center;
+	padding:20px 10px;
+	margin:10px 5px;
+	
+	
+	
+}
+		
+
+#bluepoint p{
+	font-size:40px;
+	
+}
+
+
+
+
+  
+		
+
+#form {
+	border: 3px solid gray;
+	width:29%;
+	max-width:29%;
+	position:absolute;
+	left:35%;
+	top:7%;
+	height:85%;
+	margin:0; 
+    padding:0;
+	background-color:#f1f1f1;
+	
+	
+	}
+	
+	
+	
+
+	
+
+input[type=text], input[type=password] {
+  width:96%;
+  max-width:96%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ 
+  
+  
+  
+}
+
+.w3-container {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  text-align:center;
+  
+  
+  
+  
+}
+input#MyButton {
+	width:72%;
+	max-width:67%;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+   margin: 8px 0;
+   border: none;
+  cursor: pointer;
+  border-radius:5px;
+
+
+}
+
+
+#MyButton {
+	font-size:18px;
+}
+
+
+.container {
+  padding: 16px;
+  text-align:right;
+  position:relative;
+  top:29%;
+  
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  font-size:14px;
+  position:relative;
+  top:32%;
+ 
+}
+
+
+@media screen and (max-width: 400px) {
+  span.psw {
+     display: block;
+     float: none;
+	 
+  }
+  
+
+}
+a:visited {
+		color:black;
+		}
+a:hover {
+	color:black;
+	
+	
+	}
+a:active {
+	
+	color:black;
+	}
+	
+a:link {
+		color:black;
+		text-decoration:none;
+		
+ 

@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+
+* {margin:0px;
+padding:0px;
+width:auto;
+
+
+
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	direction:rtl;
+}
+
+
+body {
+	background-color:#FFFAFA;	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+
+
+#koren {
+	max-width:6000px;
+	margin:0px 0px;
+    -webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+	
+}
+
+header, section, footer, aside, nav, article, hgroup{display:block;}
+
+
+#top_header {
+border:1px  solid black;
+color:red;
+overflow: hidden;
+ background-color: black;
+  padding: 20px 10px;
+  text-align:center;
+   font:bold 12px Copperplate;
+   width:auto;
+   
+
+}
+#top_menu{border:red;
+	background:red;
+   color:white;
+width:auto;
+overflow:hidden;
+text-align:center;
+}
+
+#top_menu li{
+	display:inline-block;
+list-style:none;
+padding: 14px 100px;
+font:bold 12px tahoma;
+float:center;
+}
+
+
+
+#open {
+position:relative;
+max-width:35%;
+background-color:#f1f1f1;
+height:35%;
+max-height:35%;
+border:2px solid gray;
+padding:14px 3px;
+}
+
+
+#open p {
+font-size:13px;
+padding: 10px 3px;
+	
+	
+}
+
+
+	
+
+#open h1 {
+	font-size:30px;
+	text-align:center;
+	
+
+}
+
+#slides {
+	
+	padding: 6px 0px;
+
+	
+	
+	
+	
+}
+
+#slides img {
+	width:26%;
+	height:40%;
+	top:5%;
+	
+}
+
+
+
+#form_holder{
+	margin:5px; 
+	padding:22px;
+	width:70%; 
+	border:3px solid black;
+	height:22%;
+	position:absolute;
+	left:15%;
+	top:110%;
+	
+	
+	
+	
+	
+	}
+
+#form_holder_inner .form_item{
+	width: 40%; 
+	margin:17px 0 0 0px; 
+	float:right;
+	color:#000;
+	}
+#form_holder_inner .form_item input{
+	min-width: 220px; 
+	height:37px; 
+	border:2px solid #606060;  
+	font-size:18px; float:center; 
+	}
+#form_holder_inner .form_item label{
+	min-width: 30%; 
+	height:3%; 
+	margin:9px 0 0 0;
+	float:right; 
+	padding:0 20px 0 0; 
+	}
+
+	
+	
+#myBtn{
+  background-color: #606060;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  position:absolute;
+  top:60%;
+  left:5%;
+  font-family:arial;
+  width:auto;
+}	
+
+
+#details {
+	text-align:center;
+	width:auto;
+    position:absolute;
+	left:41%;
+	top:105%;
+	
+
+}
+
+#details li {
+	display:inline-block;   
+	 display: inline; 
+	 padding:0 15px 0 15px; 
+	 zoom: 1; *display: inline; 
+	 padding:0 15px 0 15px; 
+	 border-left:1px solid #000
+	 
+}
+
+
+#details ul li.last{ 
+ border:0px solid black;
+color:black;
+
+}
+
+#niv {
+	position:absolute;
+	left:35%;
+	padding:10px 10px;
+}
+
+#niv2 {
+	position:absolute;
+	left:35%;
+	top:20%;
+	padding:10px 10px;
+
+}
+
+#videoreview1 {
+	border:4px solid blue;
+	margin:11px 1px;
+	width:355px;
+	max-width:355px;
+	float:right;
+}
+
+
+#videoreview2 {
+		border:4px solid blue;
+		margin:11px 1px;
+	    width:355px;
+    	max-width:355px;
+			float:right;
+
+			
+
+
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+#food_news h1 {
+	font-size:17px;
+	
+}
+#food_news p {
+	
+    -webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+
+}
+
+
+#slides {
+	border:0px solid black;
+	width:350px; 
+	
+}
+
+img {
+	 width:400px; 
+	 height:270px;
+}
